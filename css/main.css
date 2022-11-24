@@ -1,0 +1,823 @@
+/*# sourceURL=./css/main.css */
+/*@ sourceURL=./css/main.css */
+@charset "utf-8";
+
+/* main{padding-top: 120px;} */
+
+.badges{
+    width: 130px;
+    position: fixed;
+    right: 5px;
+    top: 125px;
+    z-index: 90;
+}
+.badges img{
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .3);
+}
+
+/* 메인슬라이드 */
+.main_slide{
+    width: 1920px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    /* padding-top: 100px; */
+    position: relative;
+}
+.m_slide{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+}
+.main_slide h2{
+    display: none;
+}
+.m_slide_txt_l,.m_slide_txt_r{
+    position: absolute;
+}
+.m_slide_txt_l span,
+.m_slide_txt_r span{
+    display: block;
+    margin-bottom: 10px;
+}
+.m_slide_txt_l span:first-child ,
+.m_slide_txt_r span:first-child{
+    
+    font-size: 35px;
+}
+.m_slide_txt_l span:last-child,
+.m_slide_txt_r span:last-child{
+    font-size: 20px;
+}
+.m_slide_txt_l{
+    text-align: left;
+    left: 300px;
+    top: 40%;
+}
+.m_slide_txt_r{
+    text-align: right;
+    right: 300px;
+    top: 40%;
+}
+
+
+.main_slide .swiper-button-next,
+.main_slide .swiper-button-prev,
+.main_slide .swiper-pagination{
+    position: absolute;
+}
+.main_slide .swiper-button-next{
+    padding-right: 30px;
+}
+.main_slide .swiper-button-prev{
+    padding-left: 30px;
+}
+.main_slide .swiper-pagination{
+    padding-bottom: 40px;
+}
+.main_slide .swiper-pagination .swiper-pagination-bullet{
+    margin-bottom: 50px;
+    background: #4ee420;
+    padding: 0px 20px;
+    border-radius: 0%;
+}
+.main_slide .swiper-button-next::after,
+.main_slide .swiper-button-prev::after{
+    color: #333;
+}
+
+
+/* 추천상품 */
+/* .product{
+    margin-bottom: 50px;
+    background-image: url("https://i.pinimg.com/564x/dd/1e/f4/dd1ef4b7afb181f6c9ffa42361da0703.jpg");
+    background-repeat: no-repeat;
+    width: 1920px;
+    background-size: cover;
+    height: 400px;
+} */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip1384 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 30%;
+}
+figure.snip1384 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  border-radius: 30%;
+}
+figure.snip1384 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 30%;
+}
+figure.snip1384:after,
+figure.snip1384 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+figure.snip1384:after {
+  content: '';
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,.5) 0%, rgba(253,187,45,.5) 100%);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  border-radius: 30%;
+}
+figure.snip1384 figcaption {
+  z-index: 1;
+  padding: 40px;
+}
+figure.snip1384 h3,
+figure.snip1384 .links {
+  width: 100%;
+  margin: 5px 0;
+  padding: 0;
+}
+figure.snip1384 h3 {
+  line-height: 1.1em;
+  font-weight: 700;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  opacity: 0;
+}
+figure.snip1384 p {
+  font-size: 0.8em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  opacity: 0;
+  top: 50%;
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+  line-height: 25px;
+}
+figure.snip1384 i {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px 25px;
+  font-size: 34px;
+  opacity: 0;
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
+figure.snip1384 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+figure.snip1384:hover img,
+figure.snip1384.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+figure.snip1384:hover:after,
+figure.snip1384.hover:after {
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+figure.snip1384:hover h3,
+figure.snip1384.hover h3,
+figure.snip1384:hover p,
+figure.snip1384.hover p,
+figure.snip1384:hover i,
+figure.snip1384.hover i {
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.product_wrapper{
+    width: 1300px;
+    margin: 0px auto;
+
+}
+ .product_wrapper h1{
+    font-size: 36px;
+ }
+.product_wrapper h2{
+    border: 1px solid #333;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 200px;
+    display: inline;
+    background-color: #F2CCB6;
+}
+/* .ex_01{
+    font-size: 12px;
+}
+.m_01{
+    font-size: 20px                                       ;
+}*/
+/* .swiper-slide img{
+    width: 250px; height: 250px;
+    margin-top: 30px;
+    border-radius: 30px;
+} */
+.product_wrapper .swiper-pagination span{
+    margin-bottom: 50px;
+    background: #035726;
+    padding: 0px 20px;
+    border-radius: 0%;
+}
+
+
+
+/* 영상컨텐츠 */
+.movie{
+    margin-top: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: #222;
+    position: relative;
+}
+.movie .m_inner{
+    width: 1100px;
+    height: 700px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 12;
+}
+.movie .m_inner img{
+    position: absolute;
+}
+.m_img1{
+    width: 250px;
+    border-radius: 50%;
+    left: 0px;
+    top: 50px;
+    animation-name: m_img1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+.m_img2{
+    width: 250px;
+    border-radius: 50%;
+    left: 150px;
+    top: 350px;
+    animation-name: m_img2;
+    animation-iteration-count: infinite;
+    animation-duration: 3.4s;
+}
+.m_img3{
+    right: 0px;
+    bottom: -200px;
+    animation-name: m_img3;
+    animation-iteration-count: infinite;
+    animation-duration: 3.7s;
+}
+
+@keyframes m_img1{
+    0%{top: 50px;}
+    50%{top: 65px;}
+    100%{top: 50px;}
+}
+@keyframes m_img2{
+    0%{left: 150px; top: 350px;}
+    50%{left: 150px; top: 335px;}
+    100%{left: 150px; top: 350px;}
+}
+@keyframes m_img3{
+    0%{right: 0px; bottom: -200px;}
+    50%{right: 0px; bottom: -185px;}
+    100%{right: 0px; bottom: -200px;}
+}
+
+.youtube{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    overflow: hidden;
+}
+.youtube video{
+    width: 100%;
+    transform: translateY(-100px);
+}
+.cover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    background-image: url("https://llwjdaks32.github.io/heropycoffee/css/../images/video_cover_pattern.png");
+}
+
+/* product_2 */
+.grid{
+    padding: 100px;
+    width: 1300px;
+    margin: 0 auto;
+    /* border: 2px solid #333; */
+}
+
+.grid h2{
+    display: none;
+}
+.p_grid{
+    display: grid;
+    grid-template-columns: repeat(2,650px);
+    grid-template-rows: repeat(3,650px);
+    text-align: center;
+    position: relative;
+}
+.p_grid img{
+    width: 650px;
+    overflow: hidden;
+}
+.view img{
+    width: 300px;
+    padding-bottom: 100px;
+}
+/* .view > h3{
+    margin-top: 75px;
+} */
+
+.view span:first-child{
+    z-index: auto;
+    margin-top: 100px;
+    display: block;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #333;
+    line-height: 40px;
+}
+
+/* 공통서식 */
+.bottle, .jeju_house, .innisfree{
+    overflow: hidden;
+    position: relative !important;
+    width: 1920px;
+    height: 560px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.black{
+    color: #333;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #333;
+}
+.black:hover{
+    background-color: #333;
+    color:#fff;
+}
+.white{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #fff;
+}
+.white:hover{
+    background-color: #333;
+    color:#fff;
+}
+
+/* 공병수거캠페인 */
+.bottle h2{
+    display: none;
+}
+.bottle_box{
+    margin: 0px auto;
+    width: 983px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: left; 
+    align-items: center;
+    padding: 30px;
+}
+.bottle_box .text_box{
+    position: absolute;
+    right: 90px;
+    top: 200px;
+    text-align: right;
+    line-height: 25px;
+}
+.bottle_box .text_box span:first-child{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    color: #46ce68;
+    line-height: 40px;
+
+}
+.bottle_box .text_box span:last-child{
+    display: block;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.bottle_box img{
+    width: 600px;
+    box-shadow: 4px 4px 10px 4px rgba(39, 39, 39, 0.527);
+}
+
+/* 제주하우스 */
+.jeju_house{
+    width: 100%;
+    height: 600px;
+    margin: 0px auto;
+    background-position: center;
+    position: relative;
+    background-image: url("https://cdn-design.amorepacific.com/contents/2020/08/12113403/%EC%83%81%EC%84%B8-52.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    cursor: pointer;
+}
+.jeju_house h2{
+    display: none;
+}
+.jeju_house .text_box{
+    width: 950px;
+    height: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    color: #fff;
+    text-align: right;
+}
+.jeju_house .text_box span:first-child{
+    display: block;
+    font-size: 90px;
+    line-height: 110px;
+    font-weight: bold;
+}
+
+.jeju_house .text_box span:last-child{
+    display: block;
+    font-size: 50px;
+    line-height: 90px;
+    font-weight :500;
+}
+ 
+.j_btn{
+    z-index: auto;
+    position: absolute;
+    bottom: 30px; right: 1000px;
+}
+
+
+/* 이니스프리 */
+.innisfree{
+    background-image: url("../images/con3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.innisfree h2{display:none;}
+.innisfree .inner{
+    height:700px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+.innisfree .medal{
+    position: absolute;
+     width:334px;
+    height:334px;
+    top: 16%; right: 41%;
+    z-index: 100;
+}
+.innisfree .medal img{
+    width:334px;
+    height:334px;
+}
+.innisfree .medal .front{
+    position:absolute;
+    transition:1s;
+}
+.innisfree .medal:hover .front{
+    transform: rotateY(180deg);
+}
+.innisfree .medal .back{
+    position:absolute;
+    transition:1s;
+    transform:rotateY(-180deg);
+    backface-visibility:hidden;
+}
+.innisfree .medal:hover .back{
+    transform:rotateY(0deg);
+}
+.innisfree .medal .back .btn{
+    position:absolute;
+    top:240px;
+    left:0px;
+    right:0px;
+    margin:auto;
+}
+
+
+
+/* 화면 스크롤 동작시 움직이는 서식 show */
+.back-to-position{
+    opacity: 0;
+    transition-duration:1s ;
+}
+.back-to-position.to-left{
+    transform: translateX(150px);
+}
+.back-to-position.to-right{
+    transform: translateX(-150px);
+}
+.show .back-to-position{
+    opacity: 1;
+    transform: translateX(0);
+}
+.show .back-to-position.delay-1{transition-delay: 0.3s;}
+.show .back-to-position.delay-2{transition-delay: 1s;}
+.show .back-to-position.delay-3{transition-delay: 1.5s;}
+
+.store .inner{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store .medal{
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+    margin: 0px auto;
+}
+.store .medal .front{
+    position: absolute;
+    transition: 1s;
+}
+.store .medal .back{
+    position: absolute;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    transition: 1s;
+}
+.store .medal:hover .front{
+    transform: rotateY(180deg);
+}
+.store .medal:hover .back{
+    transform: rotateY(0deg);
+}
+
+.store .medal .back .btn{
+    position: absolute;
+    top: 240px;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.store .medal .back .btn{
+    transform: none;
+}
+
+/* awards */
+.insta{
+    margin: 100px auto 100px auto;
+    width: 1300px;
+
+}
+.insta h2{
+    border: 1px solid #333;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100px;
+    display: inline;
+    background-color: #F2CCB6;
+    padding: 5px;
+}
+
+.insta .i_slide_inner{
+    padding: 40px 0;
+}
+.insta img{
+    width: 250px; height: 250px;
+    cursor: pointer;
+}
+.insta img li:hover{
+    color: rgba(255,255,255,.5);
+}
+.insta .swiper-button-next, .awards .swiper-button-prev{
+    width: 42px;
+    height: 42px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    columns: #fff;
+    position: absolute;
+    opacity: 3;
+}
+.insta .swiper-button-prev{
+    left: -100px;
+}
+.insta .swiper-button-next{
+    right: -100px;
+}
+.insta .swiper-button-prev:hover,
+.insta .swiper-button-next:hover{
+    background: #fff;
+    color: #333;
+}
+.insta .swiper-button-next::after,
+.insta .swiper-button-prev::after{
+    display: none;
+}
+
+/* footer */
+/* footer{
+    border-top: 1px solid #333;
+}
+footer .inner{
+    padding: 40px 0 60px 0;
+}
+footer .menu{
+    display: flex;
+    justify-content: center;
+}
+footer .menu li{
+    position: relative;
+}
+footer .menu li::before{
+    content: "";
+    width: 3px;
+    height: 3px;
+    background-color: #555;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+    margin: auto;
+}
+footer .menu li:last-child::before{
+    display: none;
+}
+footer .menu li a{
+    display: block;
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px;
+}
+footer .menu li a.orange{
+    color: #ea9926;
+}
+footer .btn_group{
+    margin-top: 20px;
+    display: flex;
+    transform: translateX(-350px);
+}
+footer .btn_group .btn{
+    font-size: 12px;
+    margin-right: 10px;
+}
+footer .btn_group .btn:last-child{
+    margin-right: 0px;
+}
+footer .btn_group .btn{
+    color: #fff;
+    border: 2px solid #fff;
+    transform: none;
+}
+footer .btn_group .btn:hover{
+    color: #333;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+footer .info{
+    margin-top: 30px;
+    text-align: center;
+}
+footer .info span{
+    margin-right: 20px;
+    color: #999;
+    font-size: 12px;
+}
+footer .info span:last-child{
+    margin-right: 0;
+}
+footer .copyright{
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 12px;
+}
+footer .logo{
+    margin: 30px auto 0;
+} */
+
+.login{
+    width: 100%;
+    height: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.login_wrap{
+    width: 450px;
+    margin-top: 150px;
+    /* background-color: #FF6982; */
+    text-align: center;
+}
+.login_wrap ul{
+    margin: 0px auto;
+}
+
+.login_wrap ul li:nth-child(1){
+    font-size: 24px;
+    padding-bottom: 55px;
+    font-weight: bold;
+}
+.login_wrap input[type="text"],.login_wrap input[type="password"]{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.login_wrap ul li:nth-child(4){
+    text-align: left;
+    margin-bottom: 30px;
+}
+.find{
+    position: absolute;
+    top: 32.5%; right: 38%;
+}
+.login_box,.join_box{
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.apple a img{
+    margin-top: -9px;
+    width: 103px;
+}
+.apple p{
+    position: absolute;
+    bottom: 37.5%; right: 40.5%;
+    text-align: center;
+}
+.sns_login ul{
+    display: flex;
+    justify-content: space-around;
+}
+.sns_login ul li a{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.login_wrap ul li:nth-child(6){
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* .login_wrap ul li:nth-child(6) span{
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0px 10px;
+} */
+/* .login_wrap ul li:nth-child(7){
+    margin-bottom: 40px;
+} */

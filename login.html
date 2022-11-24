@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이니스프리 로그인</title>
+     <!-- 파비콘 -->
+     <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+     <!-- 아이콘 -->
+     <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+       rel="stylesheet" type="text/css">
+    <!-- 리셋 -->
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <!-- 레이아웃 -->
+    <link rel="stylesheet" href="./css/layout.css" type="text/css">
+    <!-- 메인 -->
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <!-- 베이스 -->
+    <link rel="stylesheet" href="./css/base.css" type="text/css">
+    <!--아이콘폰트-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 스와이퍼슬라이드 서식 -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" type="text/css">
+    <!-- 벤더프리픽스 -->
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    
+    <!-- 부드러운 애니메이션 스크립트 소스 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <!-- 스크롤 탑을 위한 스크립트 소스 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js" integrity="sha512-Eenw6RBFiF4rO89LCaB5fkd4WXI4Y7GSRxrLMMWx73dZNcl+dBU3/pJtITD2gTCoEGIf/Ph3spwp0zZnF+UEJg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- 스크롤 동작에 따른 애니메이션 스크립트 소스 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    
+    <!-- 메인스크립트 -->
+    <script src="./script/main.js" defer></script>
+</head>
+<body>
+     <!-- 헤드영역 -->
+     <header>
+        <div class="inner">
+            <h1>
+                <a href="index.html" title="메인페이지 바로가기">
+                    <img src="./images/logo.png" alt="상단로고">
+                </a>
+            </h1>
+            <nav class="sub_mnu">
+                <ul>
+                    <li><a href="#" title="login"><i class="fas fa-user-friends"></i></a></li>
+                    
+                </ul>
+            <!-- 검색폼양식 -->
+            <div class="search">
+                <input type="search" placeholder="통합검색" id="search1">
+                
+                <label for="search1"><span class="material-icons">
+                    search
+                    </span>
+                </label>
+            </div>
+        </nav>
+
+        <nav class="gnb">
+            <ul>
+                <li><a href="#" title="제품">product</a>
+                    <div class="item_content">
+                        <div class="sub_wrap">
+                            <dl class="sub">
+                                <dt>제품 유형별</dt>
+                                <dd><a href="" title="">SKIN CARE</a></dd>
+                                <dd><a href="" title="">SUN</a></dd>
+                                <dd><a href="" title="">PACK&MASK</a></dd>
+                                <dd><a href="" title="">FACE MAKEUP</a></dd>
+                                <dd><a href="" title="">COLOR MAKEUP</a></dd>
+                                <dd><a href="" title="">CLEASER</a></dd>
+                                <dd><a href="" title="">MEN</a></dd>
+                                <dd><a href="" title="">BODY</a></dd>
+                            </dl>
+                            <dl class="sub">
+                                <dt>피부 고민별</dt>
+                                <dd><a href="" title="">피부결</a></dd>
+                                <dd><a href="" title="">모공</a></dd>
+                                <dd><a href="" title="">피지과다</a></dd>
+                                <dd><a href="" title="">주름</a></dd>
+                                <dd><a href="" title="">탄력</a></dd>
+                                <dd><a href="" title="">트러블</a></dd>
+                                <dd><a href="" title="">블랙헤드</a></dd>
+                            </dl>
+                            <dl class="sub">
+                                <!-- <div class="sub_1"> -->
+                                <dd><a href="" title="">각질</a></dd>
+                                <dd><a href="" title="">잡티</a></dd>
+                                <dd><a href="" title="">건조</a></dd>
+                                <dd><a href="" title="">민감성</a></dd>
+                                <dd><a href="" title="">색소침착</a></dd>
+                                <dd><a href="" title="">피부톤</a></dd>
+                                <dd><a href="" title="">다크서클</a></dd>
+                                <dd><a href="" title="">홍조</a></dd>
+                            <!-- </div> -->
+                            
+                        </div>
+
+                        <!-- <div class="content_texture">
+                            <div class="inner">
+                                <a href="skin.html" title="스킨케어">스킨케어 전체보기></a>
+                              </div>
+                        </div> -->
+
+                        <div class="view">
+                            <div class="skin">
+                                <a href="skin.html" title="스킨케어">스킨케어 전체보기></a>
+                              </div>
+                            <div class="make">
+                                <a href="makeup.html" title="메이크업">메이크업 제품보기></a>
+                            </div>
+                            <div class="men">
+                                <a href="men.html" title="남자">MEN 제품보기></a>
+                            </div>
+                        </div>
+
+                            <div class="photo">
+                               <a href="#" title="홍보사진"><img src="./images/intense.jpg" alt="인텐스"></a>
+                            </div>
+                            
+                       
+
+                    </div>
+                </li>
+                <li><a href="#" title="BEST">BEST</a>
+                    <div class="item_content">
+                        
+
+                    </div>
+                </li>
+                <li><a href="#" title="이벤트">EVENT</a>
+                    <div class="item_content">
+                        
+                    </div>
+                </li>
+                <li><a href="#" title="브랜드 소개">ABOUT US</a>
+                    <div class="item_content"></div>
+
+                    </div>
+                </li>
+                
+
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        </div>
+
+    </header>
+
+    <!-- 메인영역 -->
+    <main>
+        <section class="login">
+            <div class="login_wrap">
+                <ul>
+                    <li>회원 로그인</li>
+                    <li>
+                        <input type="text" placeholder="아이디를 입력해주세요">
+                    </li>
+                    <li>
+                        <input type="password" placeholder="비밀번호를 입력해주세요(영문, 숫자, 특수문자 조합">
+                    </li>
+                    <li>
+                        <input type="checkbox" name="" id=""> 아이디 저장
+                    </li>
+                    <li>
+                        <div class="find">
+                           <a href="#">아이디/비밀번호 찾기</a> 
+                        </div>
+                    </li>
+                    <li>
+                        <div class="login_box">
+                            로그인
+                        </div> 
+                    </li>
+                    <li>
+                        <div class="join_box">
+                            회원가입
+                    </div>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    
+                    <div class="sns_login">
+                    <ul>
+                        <li>
+                            <div class="kakao">
+                                <a href="https://www.kakaocorp.com/page/service/service/KakaoTalk"><img src="./images/kakao.png" alt=""><p><br>카카오<br>로그인</p></a>
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="naver">
+                                <a href="https://www.naver.com"><img src="./images/naver.png" alt=""><p><br>네이버<br>로그인</p></a>
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="facebook">
+                               <a href="https://www.facebook.com"><img src="./images/facebook.png" alt=""><p><br>페이스북<br>로그인</p></a>
+                            </div> 
+                         <li>
+                            <div class="apple">
+                                <a href="https://www.facebook.com"><img src="./images/apple.png" alt=""><p><br>애플<br>로그인</a></p>
+                            </div> 
+                        </li>
+                        </li>
+                    </div>
+                    
+                </ul>
+                </dl>
+            </div>
+        </section>
+    </main>
+   <!-- 푸터영역 -->
+<footer>
+    
+    <div class="footer_box">
+        <div class="top_nav">
+            <nav>
+                <ul>
+                    <li><a href="javascript:voide(0);" title="">서비스이용약관</a></li>
+                    <li><a href="javascript:voide(0);" title="">공지사항</a></li>
+                    <li><a href="javascript:voide(0);" title="">개인정보처리방침</a></li>
+                    <li><a href="javascript:voide(0);" title="">영상정보처리방침</a></li>
+                    <li><a href="javascript:voide(0);" title="">뷰티포인트</a></li>
+                    <li><a href="javascript:voide(0);" title="">임직원서비스</a></li>
+                    <li><a href="javascript:voide(0);" title="">사이트맵</a></li>
+                </ul>
+            </nav>
+            <div class="icon">
+                <ul>
+                    <li><a href="javascript:voide(0);" title="페이스북"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="javascript:voide(0);" title="인스타그램"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="javascript:voide(0);" title="유튜브"><i class="fab fa-youtube	"></i></a></li>
+                    <li><a href="javascript:voide(0);" title="유튜브"><i class="fab fa-twitter	"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="f_logo">
+            <img src="./images/logo.png" alt="f_logo'">
+        </div>
+        <div class="language">
+           
+            <select>
+                <option>언어설정</option>
+                <option value="kor">KOR</option>
+                <option value="en">EN</option>
+                <option value="en">JP</option>
+                <option value="cn">CN</option>
+            </select>
+        </div>
+        
+        <address>
+            (주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리 대표이사 최민정<br>
+사업자 등록번호 106-86-68127 통신판매신고번호 2018-서울용산-0014 제품 문의 : 080-380-0114 FAX 02-6040-7108<br>
+이메일 주소 innisfree@innisfree.com 비즈니스제휴/입점문의 partner.biz@innisfree.com<br>
+
+Copyright © 2019 Innisfree. All Rights Reserved.
+        </address>
+    </div>
+</footer>
+</body>
+</html>

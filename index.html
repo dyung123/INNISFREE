@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Heropy Coffee">
+    <meta property="og:title" content="Heropy Coffee Landing">
+    <meta property="og:description" content="헤로피커피는 세계에서 가장 큰 다국적 커피 전문점">
+    <meta property="og:image" content="./imames/for_seo.jpg">
+    <meta property="og:url" content="https://epic-darwin-271c77.netlify.app">
+    
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="Heropy Coffee">
+    <meta property="twitter:title" content="Heropy Coffee Landing">
+    <meta property="twitter:description" content="헤로피커피는 세계에서 가장 큰 다국적 커피 전문점">
+    <meta property="twitter:image" content="./imames/for_seo.jpg">
+    <meta property="twitter:url" content="https://epic-darwin-271c77.netlify.app">
+
+    <!-- 파비콘 -->
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- 아이콘 -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet" type="text/css">
+      <!-- 아이콘폰트 주소 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 리셋 -->
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <!-- 레이아웃(헤더,푸터)-->
+    <link rel="stylesheet" href="./css/layout.css" type="text/css">
+    <!-- 메인콘텐츠 -->
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="./css/swiper.css" type="text/css">
+    <!-- 스와이퍼 슬라이드 서식 -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+     type="text/css">
+    <!-- 공통서식 -->
+    <link rel="stylesheet" href="./css/base.css" type="text/css">
+
+
+    <!-- 벤더프리픽스 -->
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    
+    <!-- 부드러운 애니메이션 스크립트 소스 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <!-- 스크롤 탑을 위한 스크립트 소스 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js" integrity="sha512-Eenw6RBFiF4rO89LCaB5fkd4WXI4Y7GSRxrLMMWx73dZNcl+dBU3/pJtITD2gTCoEGIf/Ph3spwp0zZnF+UEJg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- 스크롤 동작에 따른 애니메이션 스크립트 소스 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    
+    
+    <!-- 메인스크립트 -->
+    <script src="./script/main.js" defer></script>
+
+    
+
+    <title>이니스프리 프로젝트</title>
+</head>
+<body style="overflow-x:hidden; overflow-y:auto;">
+    <!-- 헤드영역 -->
+    <header>
+        <div class="inner">
+            <h1>
+                <a href="index.html" title="메인페이지 바로가기">
+                    <img src="./images/logo.png" alt="상단로고">
+                </a>
+            </h1>
+            <nav class="sub_mnu">
+                <ul>
+                    <li><a href="login.html" title="login"><i class="fas fa-user-friends"></i></a></li>
+                    
+                </ul>
+            <!-- 검색폼양식 -->
+            <div class="search">
+                <input type="search" placeholder="통합검색" id="search1">
+                
+                <label for="search1"><span class="material-icons">
+                    search
+                    </span>
+                </label>
+            </div>
+        </nav>
+
+        <nav class="gnb">
+            <ul>
+                <li><a href="#" title="제품"><p><span class="spread-underline">PRODUCT</span></p></a>
+                    <div class="item_content">
+                        <div class="sub_wrap">
+                            <dl class="sub">
+                                <dt>제품유형별</dt>
+                                <dd><a href="" title="">SKIN CARE</a></dd>
+                                <dd><a href="" title="">SUN</a></dd>
+                                <dd><a href="" title="">PACK&MASK</a></dd>
+                                <dd><a href="" title="">FACE MAKEUP</a></dd>
+                                <dd><a href="" title="">COLOR MAKEUP</a></dd>
+                                <dd><a href="" title="">CLEASER</a></dd>
+                                <dd><a href="" title="">MEN</a></dd>
+                                <dd><a href="" title="">BODY</a></dd>
+                            </dl>
+                            <dl class="sub">
+                                <dt>피부 고민별</dt>
+                                <dd><a href="" title="">피부결</a></dd>
+                                <dd><a href="" title="">모공</a></dd>
+                                <dd><a href="" title="">피지과다</a></dd>
+                                <dd><a href="" title="">주름</a></dd>
+                                <dd><a href="" title="">탄력</a></dd>
+                                <dd><a href="" title="">트러블</a></dd>
+                                <dd><a href="" title="">블랙헤드</a></dd>
+                            </dl>
+                            <dl class="sub">
+                                <dt>피부 고민별</dt>
+                                <dd><a href="" title="">각질</a></dd>
+                                <dd><a href="" title="">잡티</a></dd>
+                                <dd><a href="" title="">건조</a></dd>
+                                <dd><a href="" title="">민감성</a></dd>
+                                <dd><a href="" title="">색소침착</a></dd>
+                                <dd><a href="" title="">피부톤</a></dd>
+                                <dd><a href="" title="">다크서클</a></dd>
+                                <dd><a href="" title="">홍조</a></dd>
+                            <!-- </div> -->
+                            </dl>
+                        </div>
+
+
+                        <div class="view">
+                            <div class="skin">
+                                <a href="skin.html" title="스킨케어">스킨케어 전체보기></a>
+                              </div>
+                            <div class="make">
+                                <a href="makeup.html" title="메이크업">메이크업 제품보기></a>
+                            </div>
+                            <div class="men">
+                                <a href="men.html" title="남자">MEN 제품보기></a>
+                            </div>
+                        </div>
+
+                            <div class="photo">
+                               <a href="#" title="홍보사진"><img src="./images/intense.jpg" alt="인텐스"></a>
+                            </div>
+                            
+                       
+
+                    </div>
+                </li>
+                <li><a href="#" title="BEST"><p><span class="spread-underline">BEST</span></p></a>
+                    
+                </li>
+                <li><a href="#" title="이벤트"><p><span class="spread-underline">EVENT</span></p></a>
+                    
+                </li>
+                <li><a href="#" title="브랜드 소개"><p><span class="spread-underline">ABOUT US</span></p></a>
+                </li>
+                
+
+                
+            </ul>
+        </nav>
+        </div>
+
+    </header>
+
+   <!-- 메인영역 -->
+   <main>
+    <!-- 메인슬라이드 -->
+    <section class="main_slide">
+        <h2>메인슬라이드</h2>
+        <div class="swiper m_slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <div class="m_slide_txt_l">
+                    <span>확신의 안티에이징 앰플</span>
+                    <span>블랙티 인핸싱 앰플</span>
+                    <div class="btn_box">
+                        <a href="javascript:voide(0);" title="더보기" class="btn black">Readmore ></a>
+                    </div>
+                </div>
+                <a href="javascript:voide(0);" title="이미지1">
+                    <img src="./images/m_slide1.jpg" alt="">
+                </a>
+            </div>
+                <div class="swiper-slide">
+                <div class="m_slide_txt_l">
+                    <span>바르는 콜라겐 크림</span>
+                    <span>콜라겐 탄력크림</span>
+                    <div class="btn_box">
+                        <a href="javascript:voide(0);" title="더보기" class="btn black">Readmore ></a>
+                    </div>
+                </div>
+                <a href="javascript:voide(0);" title="이미지2">
+                    <img src="./images/m_slide2.jpg" alt="">
+                </a>
+            </div>
+                <div class="swiper-slide">
+                <div class="m_slide_txt_l">
+                    <span>#깐달걀 피부비결!</span>
+                    <span>레티놀 시카 앰플</span>
+                    <div class="btn_box">
+                        <a href="javascript:voide(0);" title="더보기" class="btn black">Readmore ></a>
+                    </div>
+                </div>
+                <a href="javascript:voide(0);" title="이미지3">
+                    <img src="./images/m_slide3.jpg" alt="">
+                </a>
+            </div>
+                <div class="swiper-slide">
+                <div class="m_slide_txt_l">
+                    <span>환절기 수분 공식</span>
+                    <span>그린티 씨드 세럼</span>
+                    <div class="btn_box">
+                        <a href="javascript:voide(0);" title="더보기" class="btn black">Readmore ></a>
+                    </div>
+                </div>
+                <a href="javascript:voide(0);" title="이미지4">
+                    <img src="./images/m_slide4.jpg" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <div class="m_slide_txt_l">
+                    <span>나만의 뷰티 센스</span>
+                    <span>이니스프리 autumn SAIL</span>
+                    <div class="btn_box">
+                        <a href="javascript:voide(0);" title="더보기" class="btn black">Readmore ></a>
+                    </div>
+                </div>
+                <a href="javascript:voide(0);" title="이미지4">
+                    <img src="./images/m_slide5.jpg" alt="">
+                </a>
+            </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            </div>
+            
+    </section>
+
+<!-- 상품목록 슬라이드 -->
+    <article class="product">
+        <div class="swiper-container product_wrapper">
+            <h1>#for U</h1>
+            <h2>Recommended</h2>
+            <!-- 콘트롤 버튼 삽입하기 -->
+        <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><figure class="snip1384">
+                    <img src="./images/for1.jpg" alt="sample83" />
+                    <figcaption>
+                        <a href="#">
+                      <h3>그린티 씨드 세럼</h3>
+                      <p>수분 손실로 인한 손상과 트러블을 케어해 속건조 없이<br>
+                        촉촉한 진정 피부로 가꾸어주는 수분 장벽 강화 세럼</p><i class="ion-ios-arrow-right"></i>
+                    </a>
+                    </figcaption>
+                    
+                  </figure></div>
+                <div class="swiper-slide"><figure class="snip1384">
+                    <img src="./images/for2.jpg" alt="sample83" />
+                    <figcaption>
+                    <a href="#">
+                      <h3>블랙티 인핸싱 앰플</h3>
+                      <p>쓸수록 확실한 자신감! 5대 피부 노화 징후를
+                        케어하는 안티에이징 앰플</p><i class="ion-ios-arrow-right"></i>
+                    </a>
+                    </figcaption>
+                   
+                  </figure></div>
+                <div class="swiper-slide"><figure class="snip1384">
+                    <img src="./images/for3.jpg" alt="sample83" />
+                    <figcaption>
+                        <a href="#">
+                      <h3>트루 비타c 23앰플</h3>
+                      <p>순수 비타민 C 23%가 함유된, 피부를 깨끗하게 밝혀주고
+                        거칠어진 피부를 매끄럽게 가꿔주는 앰플</p><i class="ion-ios-arrow-right"></i>
+                    </a>
+                    </figcaption>
+                  </figure></div>
+                <div class="swiper-slide"><figure class="snip1384">
+                    <img src="./images/for4.jpg" alt="sample83" />
+                    <figcaption>
+                        <a href="#">
+                      <h3>비자 트러블 스킨</h3>
+                      <p>피부 보호력을 지닌 비자 오일을 함유한,
+                        닦아내는 타입의 산뜻한 스킨</p><i class="ion-ios-arrow-right"></i>
+                    </a>
+                    </figcaption>
+                  </figure></div>
+                <div class="swiper-slide"> <figure class="snip1384">
+                    <img src="./images/for5.jpg" alt="sample83" />
+                    <figcaption>
+                        <a href="#">
+                      <h3>제주 왕벚꽃 톤업크림</h3>
+                      <p>건조함 없이 피부에 밀착되어 브라이트닝한 피부를!피부 미백 효과가 있는 파데프리 수분 생기 톤업 크림</p><i class="ion-ios-arrow-right"></i>
+                        </a>
+                    </figcaption>
+
+                  </figure></div>
+                <div class="swiper-slide">    <figure class="snip1384">
+                    <img src="./images/for6.jpg" alt="sample83" />
+                    <figcaption>
+                        <a href="#">
+                      <h3>레티놀 시카앰플</h3>
+                      <p>레티놀과 시카 성분을 함유한 앰플! 각질 모공 잡티 모든 흔적 X!</p><i class="ion-ios-arrow-right"></i>
+                        </a>
+                    </figcaption>
+                  </figure></div>
+                <div class="swiper-slide">   <figure class="snip1384">
+                    <img src="./images/for7.jpg" alt="sample83" />
+                    <figcaption>
+                        <a href="#">
+                      <h3>블루베리 리밸런싱 로션</h3>
+                      <p>블루베리 추출물을 담아 건강한 피부 pH와 유수분 밸런스를 케어해주는 약산성 수분 로션</p><i class="ion-ios-arrow-right"></i>
+                        </a>  
+                    </figcaption>
+                  </figure></div>
+            </div>
+                
+        </div>
+    </article>
+
+        <!--5. 유튜브 영상 콘텐츠 -->
+        <section class="movie">
+            
+            <article class="m_inner">
+                <img src="./images/circle1.jpg" alt="이미지1" class="m_img1">
+                <img src="./images/circle2.JPG" alt="이미지2" class="m_img2">
+                <img src="./images/circle3.JPG" alt="이미지2" class="m_img2">
+            </article>
+
+            <div class="youtube">
+                <video muted autoplay loop>
+                    <source src="./images/CF.mp4" type="video/mp4">
+                </video>
+            </div>
+            <!-- 335에서 영상 api로 삽입하는 방법이 나와있음 -->
+            <div class="cover"></div>
+        </section>
+
+        <section class="grid scroll-spy">
+            <h2>product</h2>
+            <ul class="p_grid">
+                <li><div class="view back-to-position to-left delay-1"><a href="#"><span>RETINOL CICA<br>각질, 모공, 잡티의 흔적까지 케어</span><img src="./images/product1.jpg" alt=""></a></div></li>
+                <li><img src="./images/wonyoung1_2.jpg" alt=""></li>
+                <li><img src="./images/wonyoung2.jpg" alt=""></li>
+                <li><div class="view back-to-position to-right delay-2"><a href="#"><span>GREEN TEA SEED<br>속건조 없이 촉촉함 그대로</span><img src="./images/product2.jpg" alt=""></a></div></li>
+                <li><div class="view back-to-position to-left delay-3"><a href="#"><span>NO-SEBUM MINERAL POWDER<br>번들거림 없이 보송한 아기 피부를 연출</span><img src="./images/product3.jpg" alt=""></a></div></li>
+                <li><img src="./images/wonyoung3.jpg" alt=""></li>
+                
+                
+            </ul>
+
+        </section>
+        <!-- 7.공병수거캠페인-->
+        <section class="bottle scroll-spy" id="bottle">
+         <h2>공병수거캠페인</h2>
+         <div class="bottle_box">
+         <img src="./images/con1.jpg" alt="" class="back-to-position to-right delay-1">
+         <span class="text_box back-to-position to-left delay-2">
+            <span>공병수거<br>캠페인<br>Since 2003</span>
+            <span>이니스프리 공병수거<br>캠페인 참여방법</span>
+        <div>
+            <a href="javascript:void(0);" title="" class="btn black">Readmore ></a>
+        </div>
+         </span>
+    </div>
+</section>
+         <!-- 제주하우스 -->
+    <section class="jeju_house scroll-spy" id="jeju_house">
+    <h2>제주하우스</h2>
+        <div class="text_box">
+            <span class="back-to-position to-left delay-1">INNISFREE <br>
+            JEJU <br>
+            HOUSE</span>
+            <span class="back-to-position to-left delay-2">자연과 하나되는 공간</span>
+        </div>
+    
+    <div class="j_btn back-to-position to-left delay-3">
+        <a href="javascript:void(0);" title="" class="btn white">Readmore</a>
+    </div>
+    
+    </section>
+
+        <!-- 9. 이니스프리 -->
+        
+        <section class="innisfree">
+            <h2>이니스프리 소개</h2>
+            <article class="inner">
+                <h2>innisfree</h2>
+                <div class="medal">
+                    <div class="front">
+                        <img src="./images/badge_2.png" alt="스토어1">
+                    </div>
+                    <div class="back">
+                        <img src="./images/badge_1.png" alt="">
+                        <a href="javascript:void(0)" title="매장안내"  class="btn black">매장안내</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="insta">
+            <h2>#OUR INNISFREE</h2>
+            <div class="i_slide_inner">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="img_wrapper"></div>
+                        <div class="swiper-slide"><a href="#" title=""><img src="./images/insta0.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#" title=""><img src="./images/insta0_1.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#" title=""><img src="./images/insta0_2.jpg" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#" title=""><img src="./images/insta1.JPG" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#" title=""><img src="./images/insta2.JPG" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#" title=""><img src="./images/insta3.JPG" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#" title=""><img src="./images/insta4.JPG" alt=""></a></div>
+                        <div class="swiper-slide"><a href="#" title=""><img src="./images/insta5.JPG" alt=""></a></div>
+                </div>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <!-- 푸터영역 -->
+<footer>
+    <div id="top_btn">
+        <div class="material-icons ">arrow_upward</div>
+    </div>
+    <div class="footer_box">
+        <div class="top_nav">
+            <nav>
+                <ul>
+                    <li><a href="javascript:voide(0);" title="">서비스이용약관</a></li>
+                    <li><a href="javascript:voide(0);" title="">공지사항</a></li>
+                    <li><a href="javascript:voide(0);" title="">개인정보처리방침</a></li>
+                    <li><a href="javascript:voide(0);" title="">영상정보처리방침</a></li>
+                    <li><a href="javascript:voide(0);" title="">뷰티포인트</a></li>
+                    <li><a href="javascript:voide(0);" title="">임직원서비스</a></li>
+                    <li><a href="javascript:voide(0);" title="">사이트맵</a></li>
+                </ul>
+            </nav>
+            <div class="icon">
+                <ul>
+                    <li><a href="javascript:voide(0);" title="페이스북"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="javascript:voide(0);" title="인스타그램"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="javascript:voide(0);" title="유튜브"><i class="fab fa-youtube	"></i></a></li>
+                    <li><a href="javascript:voide(0);" title="유튜브"><i class="fab fa-twitter	"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="f_logo">
+            <img src="./images/logo.png" alt="f_logo'">
+        </div>
+        <div class="language">
+           
+            <select>
+                <option>언어설정</option>
+                <option value="kor">KOR</option>
+                <option value="en">EN</option>
+                <option value="en">JP</option>
+                <option value="cn">CN</option>
+            </select>
+        </div>
+        
+        <address>
+            (주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리 대표이사 최민정<br>
+사업자 등록번호 106-86-68127 통신판매신고번호 2018-서울용산-0014 제품 문의 : 080-380-0114 FAX 02-6040-7108<br>
+이메일 주소 innisfree@innisfree.com 비즈니스제휴/입점문의 partner.biz@innisfree.com<br>
+
+Copyright © 2019 Innisfree. All Rights Reserved.
+        </address>
+    </div>
+</footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        // 메인슬라이드
+        var swiper = new Swiper(".m_slide", {
+        effect: 'fade',
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop:true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+
+
+     var swiper = new Swiper(".product_wrapper", {
+      spaceBetween: 30,//슬라이드 사이여백
+      centeredSlides: false,//슬라이드 가운데
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      pagination:{
+        el:".swiper-pagination",
+        clickable:true
+      },
+      breakpoints:{
+        320:{
+            slidesPerView:2,
+        },
+        768:{
+            slidesPerView:3,
+        },
+        1025:{
+            slidesPerView:4,
+        }
+      }
+      },
+    );
+    var swuper = new Swiper(".insta .swiper",{
+        autoplay:true,
+        loop:true,
+        spaceBetween:30,
+        slidesPerView:5,
+        navigation: {//좌, 우 버튼 만들기
+          nextEl: ".awards .swiper-button-next",
+          prevEl: ".awards .swiper-button-prev"
+        },
+      });
+    </script>
+</body>
+</html>
